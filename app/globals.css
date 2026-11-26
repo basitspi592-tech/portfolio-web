@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { height: 100%; overflow: hidden; }
+body {
+  background: linear-gradient(#7b6cf6 0%, #f97b80 45%, #ffc58a 70%) fixed;
+  color: #2b1b3d;
+  padding-top: env(safe-area-inset-top, 0px);
+}
